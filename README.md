@@ -2,7 +2,7 @@
 
 A simple utility to show a tiff image, or directory of tiff images, in X windows.
 
-This is particularly usefull when viewing lots of numbered files (e.g. medical images) as it can cycle through them with a starting number and ending number. It can loop back to the start if it can not find the next image in the sequence or if no ending number is specified. The file partern can also be altered to account. To move onto each new image in sequence press any key apart from 'q', to quit the applicatioin either mouse click on the close icon or press the 'q' key.
+This is particularly useful when viewing lots of numbered files (e.g. medical images), as it can cycle through them with a starting number and ending number. It will also, if it can not find the next image in the sequence (or if no ending number is specified) automatically loop back to the start. The file pattern can also be altered to account for different text and number sequences. To move onto each new image in sequence press any key apart from 'q', to quit the application either mouse click on the close icon or press the 'q' key.
 
 ```
 Usage: ./show_tiff [-q] [-e] [-s start] [-f file_pattern] [-d directory_path]
